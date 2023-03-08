@@ -18,7 +18,6 @@ public class PersonBuilder {
         }
         this.surname = surname;
         return this;
-
     }
 
     public PersonBuilder setAge(int age) throws IllegalStateException {
